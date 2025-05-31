@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐世界</title>
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- 标签栏调整到header上方并左对齐 -->
+        <nav class="tab-bar">
+            <ul>
+                <li class="active"><a href="index.html">首页</a></li>
+            </ul>
+        </nav>
+        <section class="content-section">
+            <div class="text-content">
+                <div class="typing-container">
+                    <h1 class="typing-text" data-texts='["无任何广告", "简洁明了"]'></h1>
+                    <div class="typing-subtext" data-texts='["不插入任何广告","最简洁的UI，最美丽的UI",""]'></div>
+                </div>
+                <div class="online-experience">
+                    <h2>在线体验</h2>
+                    <p>立即体验我们的音乐APP</p>
+                    <a href="https://creation.codemao.cn/434/A589D58FFB28495EB632469ADC9EC034/LEMusic.apk"
+                        class="cta-button">下载使用（测试版）</a>
+                </div>
+            </div>
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="imagess\ppt1.png" alt="ppt1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imagess\ppt2.png" alt="ppt2">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- 添加导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 音乐世界. 保留所有权利.</p>
+        </footer>
+    </div>
+    <script src="js\script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+
+</html>
