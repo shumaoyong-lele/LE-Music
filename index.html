@@ -5,11 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>音乐世界</title>
-    <link rel="stylesheet" href="css\styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="js/script.js" as="script">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
 </head>
 
 <body>
@@ -38,10 +36,10 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="imagess\ppt1.png" alt="ppt1">
+                        <img src="imagess\ppt1.png" alt="ppt1" loading="lazy">
                     </div>
                     <div class="swiper-slide">
-                        <img src="imagess\ppt2.png" alt="ppt2">
+                        <img src="imagess\ppt2.png" alt="ppt2" loading="lazy">
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
